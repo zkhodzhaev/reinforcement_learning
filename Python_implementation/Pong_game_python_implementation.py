@@ -1,3 +1,4 @@
+# Modified from: karpathy/pg-pong.py
 
 import numpy as np
 import pickle as pickle
