@@ -96,9 +96,8 @@ dqn = DQNAgent(model=model, nb_actions=nb_actions, policy=policy, memory=memory,
 
 dqn.compile(Adam(lr=LEARNING_RATE), metrics=['mae'])
 
-
 # Load the pre-trained model
-dqn.load_weights('keras_model3.h5')
+dqn.load_weights('Trained_weights.h5')
 
 # Testing the agent
 dqn.test(env, nb_episodes=1, visualize=False)
