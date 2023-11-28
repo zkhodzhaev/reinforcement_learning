@@ -11,7 +11,7 @@ During testing, the trained model was executed using pure Python in Jupyter Note
 ### Next, this model was implemented using Keras and TensorFlow. Here, I show the model and its one-run reward 
 #### (Note: these models are run < day. More training will improve performance):
 
-The Model:
+The Model that performed the best:
 
 <img width="1094" alt="image" src="https://github.com/zkhodzhaev/reinforcement_learning/assets/21960382/63938ff6-66ed-4c16-affe-da680488def0">
 
